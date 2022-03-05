@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.21)
+project(replacing_crtp_static_polymorphism_with_concepts)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(replacing_crtp_static_polymorphism_with_concepts main.cpp)
